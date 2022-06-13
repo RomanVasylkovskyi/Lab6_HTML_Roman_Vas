@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <title>Clocks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.js"></script>
+    <script defer src="js/index.js"></script>
+
+</head>
+
+<body>
+    <div class="topSelect">
+        <ul>
+            <li>
+                <span data-section="Luxe">Luxe Car</span>
+            </li>
+            <li>
+                <div class="dropMenu">
+                    <div class="FreeCar">Car Category</div>
+                    <div class="dropMenu_blocks">
+                        <a href="#FreeCar/Car">Electro Car</a>
+                        <a href="#FreeCar/Car2">Electro Sport Car</a>
+                        <a href="#FreeCar/Car3">Electro Family Car</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span data-section="Sport">Sport Car</span>
+            </li>
+        </ul>
+    </div>
+    <div class="fullpage">
+        <div data-index="0" data-anchor="Luxe" class="section">
+            <div class="back" style="background-image: url(img/avtoicon.jfif)"></div>
+            <div class="info_block">
+                <h2 class="title">Luxe Car</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolore maiores obcaecati illum tempore at nihil rerum quis provident vitae facere facilis, minus dolorum architecto voluptate vel asperiores adipisci veritatis.</p>
+            </div>
+        </div>
+        <div data-index="1" class="section" data-anchor="FreeCar" id="section2">
+            <div class="slide" data-anchor="Car">
+                <div class="back" style="background-image: url(img/avto7.jpeg)"></div>
+                <div class="info_block">
+                    <h2 class="title">Electro Car</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia sunt voluptatem sequi architecto quas assumenda ipsam dolore optio. Soluta atque libero et nesciunt accusamus? Aliquam delectus nobis ipsa ullam.</p>
+                </div>
+            </div>
+            <div class="slide" data-anchor="Car2">
+                <div class="back" id="back2" style="background-image: url(img/avto6.jfif)"></div>
+                <div class="info_block">
+                    <h2 class="title">Electro Sport Car</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab architecto aperiam dicta veritatis illum aspernatur sed commodi assumenda consequatur nam magnam, sit nihil aliquam at, beatae, quas explicabo qui.</p>
+                </div>
+            </div>
+            <div class="slide" data-anchor="Car3">
+                <div class="back" id="back3" style="background-image: url(img/avto.jfif) "></div>
+                <div class="info_block">
+                    <h2 class="title">Family Electro Car</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quam ratione pariatur nostrum, inventore praesentium quis voluptatibus enim temporibus vel sunt laborum eum similique suscipit voluptatem debitis odio ab perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+        <div data-index="2" data-anchor="Sport" class="section">
+            <div class="back" style="background-image: url(img/Sport\ Car.jpg)"></div>
+            <div class="info_block">
+                <h2 class="title">Sport Car</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quia et omnis similique praesentium ab magni, odio a voluptas, dolorum perferendis, facilis quas explicabo non iusto natus eos voluptatum incidunt!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
